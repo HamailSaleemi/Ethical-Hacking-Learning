@@ -4,6 +4,10 @@ First we need to check if the network has WPS enabled
  ```bash
 wash --interface wlan0
  ``` 
+In case wash command is not workding use
+ ```bash
+airodump-ng --wps wlan0
+ ``` 
 If this command does not work we can simply use **airodump-ng** to get the information we need
 and just make a try for the attack
 
